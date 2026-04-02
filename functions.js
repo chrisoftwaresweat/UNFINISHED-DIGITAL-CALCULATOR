@@ -36,9 +36,9 @@ function appendDecimal() {
     display.value += ".";
 }
 
-// EXP (scientific notation)
+// EXP (exponentiation)
 function toPower() {
-    display.value += "e";
+    display.value += "**";
 }
 
 // CALCULATE RESULT
