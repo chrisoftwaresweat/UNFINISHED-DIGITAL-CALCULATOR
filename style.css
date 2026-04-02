@@ -1,0 +1,104 @@
+/* calculator */
+#calculator{
+    width: 350px;
+    margin: 50px auto; /* centers it */
+    background-color: rgb(114, 114, 114);
+}
+
+/* calculator screen */
+input{
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    background-color: rgb(13, 26, 26);
+    width: 327px;
+    height: 70px;
+    margin-top: 6px;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 18px;
+    text-align: right;
+}
+
+/* buttons/keys */
+.number-button{
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    width: 75px;
+    height: 75px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size:24px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.operator-button{
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    width: 75px;
+    height: 75px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #0e014a;
+    color: white;
+    cursor: pointer;
+}
+
+.normal-button{
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    width: 75px;
+    height: 75px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+}
+
+/* hover and active */
+.number-button:hover{
+    background-color: #3333337f;
+    color: white;
+}
+
+.operator-button:hover{
+    background-color: #00000078;
+    color: rgba(255, 255, 255, 0.419);
+}
+
+.normal-button:hover{
+    background-color: #cccccc7a;
+    color: black;
+}
+
+.number-button:active{
+    background-color: #000000;
+    color: white;
+}
+
+.operator-button:active{
+    background-color: #000;
+    color: white;
+}
+
+.normal-button:active{
+    background-color: #ffffff;
+    color: black;
+}

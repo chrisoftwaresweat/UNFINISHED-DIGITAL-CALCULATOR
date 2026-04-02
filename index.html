@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <!-- calculator screen -->
+        <input id="display" readonly>
+
+        <!-- calculator buttons -->
+     <div>
+        <button onclick="turnOff()" class="normal-button">OFF</button>
+        <button onclick="clearDisplay()" class="normal-button">CLR</button>
+        <button onclick="deleteLast()" class="normal-button">DEL</button>
+        <button onclick="appendOperator('/')" class="operator-button">/</button>
+        <button onclick="appendNumber('7')" class="number-button">7</button>
+        <button onclick="appendNumber('8')" class="number-button">8</button>
+        <button onclick="appendNumber('9')" class="number-button">9</button>
+        <button onclick="appendOperator('*')" class="operator-button">*</button>
+        <button onclick="appendNumber('4')" class="number-button">4</button>
+        <button onclick="appendNumber('5')" class="number-button">5</button>
+        <button onclick="appendNumber('6')" class="number-button">6</button>
+        <button onclick="appendOperator('-')" class="operator-button"> -</button>
+        <button onclick="appendNumber('1')" class="number-button">1</button>
+        <button onclick="appendNumber('2')" class="number-button">2</button>
+        <button onclick="appendNumber('3')" class="number-button">3</button>
+        <button onclick="appendOperator('+')" class="operator-button">+</button>
+        <button onclick="appendNumber('0')" class="number-button">0</button>
+        <button onclick="appendDecimal()" class="number-button">.</button>
+        <button onclick="toPower()" class="normal-button">exp</button>
+        <button onclick="calculate()" class="operator-button">=</button>
+     </div>
+    </div>
+
+     <script src="functions.js"></script>
+</body>
+</html>
