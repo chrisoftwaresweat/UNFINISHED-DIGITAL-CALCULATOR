@@ -1,7 +1,7 @@
 // GET DISPLAY
 const display = document.getElementById("display");
 
-// OFF / CLEAR ALL
+// OFF
 function turnOff() {
     display.value = "CLOSED.";
 }
